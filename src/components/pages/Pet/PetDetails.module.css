@@ -1,0 +1,26 @@
+.images_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 2em;
+}
+
+.images_container img{
+    width: 200px;
+    height: 200px;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.visit_button{
+    margin: 1em 0;
+    padding: 1em 2em;
+    background-color: #3C6E71;
+    color: white;
+    font-weight: bold;
+}
+

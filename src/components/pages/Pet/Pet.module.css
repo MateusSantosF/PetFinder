@@ -1,0 +1,13 @@
+.images_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 2em;
+}
+
+.images_container img{
+    width: 100px;
+    height: 100px;
+}
+

@@ -1,0 +1,37 @@
+
+.navbar {
+    background-color: #3C6E71;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    gap: 0.4em;
+}
+
+.navbar a, 
+.navbar li{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    padding: 0.5em 0.8em;
+    transition: 0.6s;
+    border-radius: 0.3em;
+}
+
+.navbar li:hover > a{
+    background-color: #284B63;
+    color: white;
+}
+
+.navbar_logo{
+    color: white;
+    font-size: 1em;
+}

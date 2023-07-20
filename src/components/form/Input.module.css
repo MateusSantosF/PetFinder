@@ -1,0 +1,48 @@
+
+
+.formControll{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.6em;
+   
+} 
+
+.formControll label{
+    margin-bottom:  .3em;
+    font-weight: bold;
+    font-size: 0.8em;
+ 
+}
+
+.formControll input{
+    padding: 0.7em;
+    border-radius: 5px;
+    border: 1px solid #777;
+}
+
+.formControll input::placeholder{
+    color: #7b7b7b;
+}
+
+
+.submitButton input{
+    width: 100%;
+    padding: 1em 3em;
+    cursor: pointer;
+    background-color: #3C6E71;;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1.1em;
+    border-radius: 0.3em;
+}
+
+.submitButton input:hover{
+    background-color: #2d5d5f;
+
+}
+
+
+.submitButton input.disabled{
+    background-color: #585858;
+}

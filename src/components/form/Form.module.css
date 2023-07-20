@@ -1,0 +1,15 @@
+.form_container{
+    max-width: 300px;
+    margin: 0 auto;
+    color: #343434;
+}
+
+.form_container p{
+   margin-top: 1em;
+
+}
+
+.form_container p a{
+    color: #16479D;
+    font-weight: bold;
+}

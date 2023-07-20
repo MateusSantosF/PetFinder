@@ -1,0 +1,22 @@
+
+
+.error_container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(245, 138, 138);
+    padding: 1em 2em;
+    border-radius: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.error_container ul{
+    list-style: none;
+}
+
+.error_container ul li{
+    font-weight: bold;
+}
